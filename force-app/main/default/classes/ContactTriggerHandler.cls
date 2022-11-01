@@ -16,8 +16,8 @@ public class ContactTriggerHandler {
 
         for (Contact eachContact : contTriggerNew) {
             if (eachContact.LeadSource != contTriggerOldMap.get(eachContact.id).LeadSource) {
-                string customValidation = system.label.ContactValidation2;
-                eachContact.LeadSource.addError(customValidation);
+                //string customValidation = system.label.ContactValidation2;
+                //eachContact.LeadSource.addError(customValidation);
             }
         }
     }
